@@ -1,0 +1,52 @@
+.image-container {
+    border: 3px solid blue;
+    text-align: center;
+}
+   
+.image-container img {
+     width: 200px;
+     border: 2px solid red;
+     margin: 16px;
+     padding: 32px;
+     border-radius: 4%; 
+}
+   
+.class {
+     width: 200px;
+     height: 200px;
+     background: blue;
+     border-radius: 50%;
+     position: absolute;
+     top: 300px;
+     left: 50%;
+     box-shadow: 5px 10px 5px 10px; 
+}
+   
+.thing {
+     width: 200px;
+     height: 200px;
+     background: hotpink;
+     border-radius: 50%;
+     position: fixed;
+     top: 300px;
+     right: 10%;
+}
+   
+.background {
+     margin: 10px;
+     width: 300px;
+     height: 200px;
+     background: url("assets/IMG_0755.JPG");
+     background-position: center;
+     background-size: cover;
+     box-shadow: 10px 10px 10px #aaaaaa;
+}
+   
+.float {
+     float: left;
+     box-sizing: border-box;
+     margin: 40px;
+}
+   
+   
+   
